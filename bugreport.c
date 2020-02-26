@@ -73,7 +73,7 @@ int cmd_main(int argc, const char **argv)
 	int report = -1;
 	time_t now = time(NULL);
 	char *option_output = NULL;
-	char *option_suffix = "%F-%H%M";
+	char *option_suffix = "%Y-%m-%d-%H%M";
 	int nongit_ok = 0;
 	const char *prefix = NULL;
 	const char *user_relative_path = NULL;
